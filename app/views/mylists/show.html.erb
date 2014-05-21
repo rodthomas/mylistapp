@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Productname:</strong>
+  <%= @mylist.productName %>
+</p>
+
+<p>
+  <strong>Quantity:</strong>
+  <%= @mylist.quantity %>
+</p>
+
+<p>
+  <strong>Itemsperpack:</strong>
+  <%= @mylist.itemsPerPack %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @mylist.unit %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @mylist.price %>
+</p>
+
+<%= link_to 'Edit', edit_mylist_path(@mylist) %> |
+<%= link_to 'Back', mylists_path %>

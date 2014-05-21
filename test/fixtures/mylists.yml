@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  productName: MyString
+  quantity: 1
+  itemsPerPack: MyString
+  unit: MyString
+  price: 9.99
+
+two:
+  productName: MyString
+  quantity: 1
+  itemsPerPack: MyString
+  unit: MyString
+  price: 9.99
