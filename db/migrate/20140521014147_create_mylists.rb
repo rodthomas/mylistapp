@@ -5,7 +5,7 @@ class CreateMylists < ActiveRecord::Migration
       t.integer :quantity
       t.string :itemsPerPack
       t.string :unit
-      t.BigDecimal :price
+      t.integer :price
 
       t.timestamps
     end
